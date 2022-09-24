@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uhkamalli"
-version = "2022.9.18"
+version = "2022.9.24"
 description = "Threat model (Finnish: uhkamalli) your application."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
