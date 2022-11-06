@@ -3,6 +3,9 @@ site_description: "Threat model (Finnish: uhkamalli) your application."
 
 theme:
   name: 'material'
+  features:
+    - navigation.expand
+    - toc.integrate
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
