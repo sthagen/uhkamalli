@@ -1,8 +1,10 @@
-# uhkamalli
+# Uhkamalli
 
 Threat model (Finnish: uhkamalli) your application.
 
 [License: MIT](https://git.sr.ht/~sthagen/uhkamalli/tree/default/item/LICENSE)
+
+Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/uhkamalli.svg?style=flat)](https://pypi.python.org/pypi/uhkamalli/)
 [![downloads](https://pepy.tech/badge/uhkamalli/month)](https://pepy.tech/project/uhkamalli)
