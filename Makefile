@@ -1,9 +1,9 @@
 .DEFAULT_GOAL := all
 black = black -S -l 120 --target-version py310 uhkamalli test
-flake8 = flake8 uhkamalli test
-isort = isort uhkamalli test
+lint = ruff uhkamalli test
 pytest = pytest --asyncio-mode=strict --cov=uhkamalli --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 types = mypy uhkamalli
+
 .PHONY: install
 install:
 	pip install -U pip wheel
@@ -21,19 +21,18 @@ init:
 
 .PHONY: format
 format:
-	$(isort)
+	$(lint) --fix
 	$(black)
 
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	$(flake8)
-	$(isort) --check-only --df
+	$(lint) --diff
 	$(black) --check --diff
 
 .PHONY: types
 types:
-	$(mypy)
+	$(types)
 
 .PHONY: test
 test: clean
