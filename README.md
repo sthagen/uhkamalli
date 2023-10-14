@@ -3,7 +3,8 @@
 Threat model (Finnish: uhkamalli) your application.
 
 [License: MIT](https://git.sr.ht/~sthagen/uhkamalli/tree/default/item/LICENSE) | 
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/uhkamalli/tree/default/item/COUNTRY-OF-ORIGIN)
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/uhkamalli/tree/default/item/COUNTRY-OF-ORIGIN) | 
+[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/uhkamalli/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
