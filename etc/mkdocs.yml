@@ -1,5 +1,7 @@
 site_name: Uhkamalli
 site_description: "Threat model (Finnish: uhkamalli) your application."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
