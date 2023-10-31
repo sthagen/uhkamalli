@@ -9,7 +9,7 @@ Threat model (Finnish: uhkamalli) your application.
 
 [![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/uhkamalli/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/uhkamalli)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/uhkamalli.svg?style=flat)](https://pypi.python.org/pypi/uhkamalli/)
+[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/uhkamalli/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/uhkamalli/log)
 
 ## Documentation
