@@ -1,7 +1,7 @@
 {
   "uhkamalli": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:37:30.263583",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:33:48 +00:00",
     "branch_coverage": false,
     "show_contexts": true,
     "covered_lines": 0,
@@ -9,6 +9,22 @@
     "percent_covered": 0,
     "percent_covered_display": "0.00",
     "missing_lines": 2,
-    "excluded_lines": 0
+    "excluded_lines": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "uhkamalli/__init__.py",
+      "uhkamalli/cli.py",
+      "uhkamalli/uhkamalli.py"
+    ],
+    "blake3": "cf23d394416aca6348858649fc97c1ff8e1e095a2d0864b074d646bc1862fc64",
+    "blake2": "9cec619baeec9880ccdd5d95c78ed8e17401b131341ee3030dcdad6ca2296445ca542e3d426e6b41246a933a26006d8d6ffd3c309257a846d3a9a12470083449",
+    "sha512": "db285e1185155d1885b5a473e03c31db7f1a3fd5d5e88549ac356e91140a228b5b1d48701b52fdf0ea499b58427d7aa3e9a48d4a3b16a7d1fa32f97a20d2ad8c",
+    "sha384": "36c602955e09683a30182fa3fc37b239c8b87bf3b46dbb98cccfe19b57acbc48211c92093a3f0a02af7229e684675b60",
+    "sha256": "b70e44605c79e04c4fc341c29c76020aa397bd2da67dfaeb42b45d64316491e9",
+    "sha1": "4ed2ffb2be27bf65bdd2444c82436a0862fa2731",
+    "md5": "12b1ccb7875fb4a3688d6ad65d4cf379",
+    "python_version": "3.10.12",
+    "entropy": 5.000875
   }
 }
