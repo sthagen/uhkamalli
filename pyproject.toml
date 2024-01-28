@@ -7,6 +7,7 @@ name = "uhkamalli"
 version = "2023.10.22"
 description = "Threat model (Finnish: uhkamalli) your application."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 classifiers = [
